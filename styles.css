@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans:ital,wght@0,500;1,400&display=swap');
+@import "reset.css";
+@import "variable.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+
+
+/* Screens */
+@import "screen/login.css";
+@import "screen/friedns.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chat.css";
+
+body {
+    color: #2F363E;
+    font-family: 'Gabarito', cursive;
+font-family: 'Open Sans', sans-serif;
+height: 1000vh;
+}
+
+.main-screen {
+    padding : 0px var(--horizontal-space)
+}
